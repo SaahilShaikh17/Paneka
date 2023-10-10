@@ -1,8 +1,8 @@
 import React from 'react'
-import './fixtures.css'
+import './fixturehome.css'
 import { useEffect, useState } from 'react'
 import Axios from 'axios';
-export const Fixtures = () => {
+export const FixtureHome = () => {
 
   const [fixturesData, setFixturesData] = useState(null);
 
@@ -10,7 +10,7 @@ export const Fixtures = () => {
   
   useEffect(() => {
 
-    const apiUrl = 'https://v3.football.api-sports.io/fixtures?season=2023&league=39';
+    const apiUrl = 'https://v3.football.api-sports.io/fixtures?season=2023&league=39&next=4';
   
     const axiosConfig = {
       headers: {
