@@ -37,7 +37,7 @@ export const Home = () => {
   return (
     <div className='homePage'>
       <div className="homeTitle">
-        <marquee><h1>Welcome to Paneka</h1></marquee>
+        <marquee><h1>Welcome to Panemka</h1></marquee>
       </div>
       <div className='carousel'>
       <UncontrolledExample />
